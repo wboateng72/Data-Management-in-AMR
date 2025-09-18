@@ -17,14 +17,14 @@ This script automates the comparison of two columns in a CSV file to identify **
 
 
 ## 🔧 Environment Setup & Installation
-###Create and Activate a Virtual Environment
+### Create and Activate a Virtual Environment
 
 ```
 python -m venv venv
 source venv/bin/activate 
 ```
 
-###Install Dependencies
+### Install Dependencies
 
 ```
 pip install pandas rapidfuzz openpyxl
@@ -33,6 +33,9 @@ pip install pandas rapidfuzz openpyxl
 Edit the parameters at the top of the script if needed:
 
 csv_file = "input.csv"       # Path to your input CSV file
+
 col_a = "ColumnA"            # Name of the first column to compare
+
 col_b = "ColumnB"            # Name of the second column to compare
+
 output_file = "output.xlsx"  # Name of the Excel file for results
