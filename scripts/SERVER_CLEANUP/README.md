@@ -14,14 +14,6 @@ The script performs the following tasks:
 | Sample1 | 1     | 95               | 1     | 98               |
 | Sample2 | 0     | 0                | 1     | 87               |
 
-### ⚡️ How to Use
-
-Clone the repository and move into it:
-```bash
-git clone https://github.com/your-username/amr-data-management.git
-cd amr-data-management
-```
-
 Set up a Python virtual environment
 ```
 python3 -m venv env
