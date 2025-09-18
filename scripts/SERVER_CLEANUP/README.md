@@ -28,8 +28,11 @@ pip install pandas fuzzywuzzy python-Levenshtein
 Edit the parameters at the top of the script if needed:
 
 ids_csv_path = 'ids.csv'         # Path to your CSV with IDs
+
 fasta_dir = 'Fasta'              # Directory containing fasta files
+
 fastq_dir = 'Fastq'              # Directory containing fastq files
+
 output_csv = 'match_results.csv' # Output CSV file name
 
 Run the script:
