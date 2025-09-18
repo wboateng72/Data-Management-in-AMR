@@ -7,6 +7,7 @@
 - 📊 Records whether a match was found and the percentage similarity score.  
 - 💾 Exports the results into a summary CSV (`match_results.csv`).  
 
+
 **Example Output (`match_results.csv`):**
 
 | ID      | Fasta | Fasta percentage | Fastq | Fastq percentage |
@@ -14,7 +15,7 @@
 | Sample1 | 1     | 95               | 1     | 98               |
 | Sample2 | 0     | 0                | 1     | 87               |
 
-**Set up a Python virtual environment***
+**Set up a Python virtual environment**
 ```
 python3 -m venv env
 source env/bin/activate
@@ -35,10 +36,12 @@ fastq_dir = 'Fastq'              # Directory containing fastq files
 
 output_csv = 'match_results.csv' # Output CSV file name
 
+
 **Run the script:**
 ```
 python match_ids.py
 ```
+
 
 **Check the results**
 
