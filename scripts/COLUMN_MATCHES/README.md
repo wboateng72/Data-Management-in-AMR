@@ -1,6 +1,6 @@
 ## ⚙️ Functionality
 
-This script automates the comparison of two columns in a CSV file to identify **similar** and **unmatched** values:
+The script ```column_matches.py``` automates the comparison of two columns in a CSV file to identify **similar** and **unmatched** values:
 
 1. **Load Data** – Reads a CSV file and extracts values from two specified columns.  
 
