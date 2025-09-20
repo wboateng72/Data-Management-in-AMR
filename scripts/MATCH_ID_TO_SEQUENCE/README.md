@@ -39,7 +39,7 @@ geneX,Unknown
 
 ---
 
-## Output Format of the CSV file
+## 📥 Output Format of the CSV file
 
 **The script creates a new file called output.csv with an additional column Fasta_Path that contains the absolute path of the matched fasta file, or "Not Found" if no match exists.**
 
