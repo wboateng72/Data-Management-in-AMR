@@ -21,8 +21,11 @@ cd Data-Management-in-AMR-
 ```
 
 ├── scripts/        # Data management scripts
+
 └── README.md       # Repository description
 
-🤝 Contributions
+---
+
+## 🤝 Contributions
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue.
