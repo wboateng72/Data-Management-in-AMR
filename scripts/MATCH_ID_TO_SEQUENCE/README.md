@@ -32,10 +32,11 @@ python ID_sequence_match.py <input_csv>
 
 Example (sample.csv):
 
-GeneID,Description
-geneA,Important enzyme
-geneB,Transport protein
-geneX,Unknown
+| GeneID | Description       |
+|--------|-------------------|
+| geneA  | Important enzyme  |
+| geneB  | Transport protein |
+| geneX  | Unknown           |
 
 ---
 
@@ -45,10 +46,12 @@ geneX,Unknown
 
 Example (output.csv):
 
-GeneID,Description,Fasta_Path
-geneA,Important enzyme,/home/user/project/data/geneA.fasta
-geneB,Transport protein,/home/user/project/data/subdir/geneB_sequence.fasta
-geneX,Unknown,Not Found
+| GeneID | Description        | Fasta_Path                                       |
+|--------|--------------------|--------------------------------------------------|
+| geneA  | Important enzyme   | /home/user/project/data/geneA.fasta              |
+| geneB  | Transport protein  | /home/user/project/data/subdir/geneB_sequence.fasta |
+| geneX  | Unknown            | Not Found                                        |
+
 
 ---
 
