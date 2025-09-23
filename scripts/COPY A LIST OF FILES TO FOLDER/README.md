@@ -1,4 +1,4 @@
-# 🧬 FASTA File Collector
+# 🧬 FILE TRANSFER USING LISTED PATHS
 
 🟢 This repository contains a simple **Bash script** for collecting specified files from different locations and copying them into a single destination folder.  
 
