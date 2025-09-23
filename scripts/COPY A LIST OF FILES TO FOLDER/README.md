@@ -1,7 +1,8 @@
 # 🧬 FASTA File Collector
 
-This repository contains a simple **Bash script** for collecting specified files from different locations and copying them into a single destination folder.  
-It is especially useful in **bioinformatics pipelines**, where multiple assemblies or sequence files need to be consolidated into one place before downstream analysis.
+🟢 This repository contains a simple **Bash script** for collecting specified files from different locations and copying them into a single destination folder.  
+
+🟢 It is especially useful in **bioinformatics pipelines**, where multiple assemblies or sequence files need to be consolidated into one place before downstream analysis.
 
 ---
 
