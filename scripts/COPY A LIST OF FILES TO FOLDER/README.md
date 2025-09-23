@@ -8,7 +8,7 @@ It is especially useful in **bioinformatics pipelines**, where multiple assembli
 ## 📂 Script Function
 
 - Creates a folder called `assembly` (It can be replaced with any folder name you choose).
-- Copies a predefined list of `.fasta` files into the folder. Modify by providing path to all your files
+- Copies a predefined list of `.fasta` files into the folder. Modify by providing the individual path of all your files
 - Checks whether each file exists before copying.
 - Provides informative messages:
   - ✅ File successfully copied
@@ -26,7 +26,7 @@ chmod +x file_transfer.sh
 ```
 
 3. Edit the script:
-- Open copy_fasta.sh in a text editor.
+- Open file_transfer.sh in a text editor.
 - Update the files array with the full paths to your FASTA files.
 - Change the folder variable if you want a different destination.
 
