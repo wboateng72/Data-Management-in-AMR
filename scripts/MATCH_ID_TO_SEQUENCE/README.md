@@ -1,6 +1,6 @@
 # FASTA File Matcher
 
-The script ```ID_sequence_match.py``` maps IDs from a CSV file to corresponding `.fasta` files located in the same directory (and its subdirectories). 
+The script ```ID_sequence_match.py``` maps IDs from a CSV file to corresponding `.fasta` files located in the same directory (and its subdirectories) and generates the path in another column of the output. 
 **The script can however be edited on ```line 32``` to work for other extensions**
 
 ---
@@ -32,11 +32,11 @@ python ID_sequence_match.py <input_csv>
 
 Example (sample.csv):
 
-| GeneID | Description       |
-|--------|-------------------|
-| geneA  | Important enzyme  |
-| geneB  | Transport protein |
-| geneX  | Unknown           |
+| GeneID |
+|--------|
+| geneA  |
+| geneB  |
+| geneX  |
 
 ---
 
@@ -46,11 +46,11 @@ Example (sample.csv):
 
 Example (output.csv):
 
-| GeneID | Description        | Fasta_Path                                       |
-|--------|--------------------|--------------------------------------------------|
-| geneA  | Important enzyme   | /home/user/project/data/geneA.fasta              |
-| geneB  | Transport protein  | /home/user/project/data/subdir/geneB_sequence.fasta |
-| geneX  | Unknown            | Not Found                                        |
+| GeneID |Fasta_Path                                          |
+|--------|----------------------------------------------------|
+| geneA  |/home/user/project/data/geneA.fasta                 |
+| geneB  |/home/user/project/data/subdir/geneB_sequence.fasta |
+| geneX  |Not Found                                           |
 
 
 ---
